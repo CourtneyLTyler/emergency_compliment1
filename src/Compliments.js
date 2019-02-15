@@ -40,7 +40,7 @@ var data = [
   "Hello, good looking."
 ];
 
-class Compliment extends Component {
+class Compliments extends Component {
   constructor() {
     super();
     this.state = {
@@ -55,4 +55,4 @@ class Compliment extends Component {
   }
 }
 
-export default Compliment;
+export default Compliments;

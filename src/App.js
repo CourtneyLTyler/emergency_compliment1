@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Compliment from "./Compliment";
+import Compliments from "./Compliments";
 import './App.css';
 import Hello from './Hello'
 
@@ -8,7 +8,7 @@ class App extends Component {
     return (
       <div className="App">
         < Hello />
-        <Compliment/>
+        <Compliments/>
       </div>
     );
   }
