@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 
-var data = [
+var compliments = [
   "Good effort!",
   "What a fine sweater!",
   "I appreciate all of your opinions.",
@@ -44,14 +44,14 @@ class Compliment extends Component {
   constructor() {
     super();
     this.state = {
-      data: data
+      compliments: compliments
     };
   }
   render() {
-    let data = this.state.data[
-      Math.floor(Math.random() * this.state.data.length)
+    const compliments = this.state.compliments[
+      Math.floor(Math.random() * this.state.compliments.length)
     ];
-    return <div>{data}</div>;
+    return <div>{compliments}</div>;
   }
 }
 
